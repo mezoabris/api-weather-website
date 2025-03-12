@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="/api-weather-website/styles.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <p>Check the current weather and forecast for any city</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name (e.g., London, Tokyo, New York)">
+            <button id="search-button">Search</button>
+        </div>
+        
+        <div class="weather-container" id="weather-container">
+            <!-- Weather data will be displayed here -->
+            <div class="weather-card">
+                <h3>Welcome to Weather Dashboard</h3>
+                <p>Search for a city to see weather information</p>
+            </div>
+        </div>
+    </div>
     
+    <script src="/api-weather-website/script.js">
+        
+    </script>
 </body>
 </html>
